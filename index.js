@@ -8,7 +8,7 @@ app.use(express.static(path.join(__dirname, "./build")));
 var cors = require("cors");
 const corsOptions = {
   // Allow only requests from this domain
-  origin: ["http://localhost:3000"],
+  origin: ["https://dinero-gold.vercel.app"],
 };
 app.use(cors(corsOptions));
 
