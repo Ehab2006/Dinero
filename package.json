@@ -1,7 +1,15 @@
 {
   "name": "dinero-b",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"# Dinero\"",
+  "homepage": "https://github.com/Ehab2006/Dinero#readme",
+  "bugs": {
+    "url": "https://github.com/Ehab2006/Dinero/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ehab2006/Dinero.git"
+  },
   "license": "ISC",
   "author": "",
   "type": "commonjs",
@@ -18,5 +26,6 @@
     "express-openid-connect": "^2.18.1",
     "mongoose": "^8.14.1",
     "nodemon": "^3.1.10"
-  }
+  },
+  "devDependencies": {}
 }
