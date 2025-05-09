@@ -99,7 +99,7 @@ app.get("/profile", (req, res) => {
 });
 
 //employee
-app.get("/allrOffers", requiresAuth(), async (req, res) => {
+app.get("/allrOffers", async (req, res) => {
   const offers = await offer.find();
   return res.json(offers);
 });
